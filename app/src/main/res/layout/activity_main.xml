@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="20dp"
+            android:id="@+id/scoreText"
+            android:layout_gravity="center"
+            android:textSize="35sp"
+            android:text="AI: 0 YOU: 0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+            </Space>
+            <ImageView
+                android:id="@+id/aiImage"
+                android:background="@drawable/temp"
+                android:layout_margin="25dp"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+
+            </ImageView>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        </Space>
+        <ImageView
+            android:id="@+id/yourImage"
+            android:background="@drawable/temp"
+            android:layout_margin="25dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+
+        </ImageView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/rockButton"
+            android:layout_margin="15dp"
+            android:text="TAŞ"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:id="@+id/paperButton"
+            android:layout_margin="15dp"
+            android:text="KAĞIT"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:id="@+id/scissorsButton"
+            android:layout_margin="15dp"
+            android:text="MAKAS"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+</RelativeLayout>
+</RelativeLayout>

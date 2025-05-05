@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".TwoPlayers">
+
+    <Button
+        android:id="@+id/btnPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="20dp"
+        android:text="Player 2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagePlayer2" />
+
+    <TextView
+        android:id="@+id/scoreText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="176dp"
+        android:text="P1: 0 P2: 0"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPlayer1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="159dp"
+        android:text="Player 1"
+        app:layout_constraintBottom_toTopOf="@+id/imagePlayer1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreText2" />
+
+    <ImageView
+        android:id="@+id/imagePlayer1"
+        android:layout_width="234dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="89dp"
+        app:layout_constraintBottom_toTopOf="@+id/imagePlayer2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlayer1"
+        app:srcCompat="@drawable/temp" />
+
+    <ImageView
+        android:id="@+id/imagePlayer2"
+        android:layout_width="234dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="89dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPlayer2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagePlayer1"
+        app:srcCompat="@drawable/temp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

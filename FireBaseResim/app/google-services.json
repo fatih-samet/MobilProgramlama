@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "413101999089",
+    "project_id": "fir-resim-b8bf1",
+    "storage_bucket": "fir-resim-b8bf1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413101999089:android:576d05728a47b9359cba50",
+        "android_client_info": {
+          "package_name": "com.example.firebaseresim"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzici-WriXiM1lcvZ_s-No_qghDc95YeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
